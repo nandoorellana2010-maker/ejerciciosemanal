@@ -1,9 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
-
-
-export default function resultado({resultado}: {resultado: any}) {
+export default function Resultado({resultado}: {resultado: any}) {
 
   return (
 

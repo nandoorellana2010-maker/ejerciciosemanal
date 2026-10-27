@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import resultado from './componentes/resultado';
+import Resultado from './componentes/resultado';
 import calculo from './componentes/calculo';
 
 export default function App() {
@@ -12,7 +12,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Esta es mi app de ejercicios!</Text>
       <StatusBar style="auto" />
-      <resultado resultado={}></resultado>
+      <Resultado resultado={resultado}></Resultado>
     </View>
   );
 }
